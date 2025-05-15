@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festival Kreasi dan Seni Siswa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 56px;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 50px;
+    }
+
+    nav {
+      background-color: #444;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-size: 30px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .left {
+      flex: 2;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .right {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .right img {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #2e8b57;
+      margin-bottom: 10px;
+      font-size: 40px;
+    }
+
+    ul {
+      margin-top: 0;
+      margin-left: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+      font-size: 30px;
+    }
+
+    th {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+
+    .form-container {
+      max-width: 950px;
+      background-color: rgb(31, 143, 78);
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-size: 30px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 30px;
+      font-size: 16px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #232503;
+      color: white;
+      padding: 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 25px;
+      cursor: pointer;
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #246c45;
+    }
+
+    footer p {
+      font-size: 25px;
+      text-align: center;
+      background-color: #2e8b57;
+      padding: 40px 0;
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Festival Kreasi dan Seni Siswa</h1>
+    <p>SMA Negeri 1 Nusantara</p>
+  </header>
+
+  <nav>
+    <a href="#deskripsi">Deskripsi</a>
+    <a href="#jadwal">Jadwal</a>
+    <a href="#pendaftaran">Pendaftaran</a>
+  </nav>
+
+  <div class="container">
+    <div class="left">
+      <section id="deskripsi">
+        <h2>Deskripsi Acara</h2>
+        <p style="font-size: 30px;">
+          Festival Kreasi dan Seni Siswa menampilkan bakat dan kreativitas siswa dalam seni tari, musik, teater, puisi, dan kerajinan tangan. Terbuka untuk siswa kelas 10–12.
+        </p>
+      </section>
+
+      <section id="jadwal">
+        <h2>Jadwal Acara</h2>
+        <ul style="font-size: 30px;">
+          <li><strong>Tanggal:</strong> Sabtu, 15 Juni 2025</li>
+          <li><strong>Waktu:</strong> 08.00 - 16.00 WITA</li>
+          <li><strong>Tempat:</strong> Aula SMA Negeri 1 Nusantara</li>
+        </ul>
+      </section>
+
+      <section id="Susunan-kegiatan">
+        <h2>Susunan-Kegiatan</h2>
+        <table>
+          <tr>
+            <th>Waktu</th>
+            <th>Kegiatan</th>
+            <th>Penanggung Jawab</th>
+          </tr>
+          <tr><td>08.00 - 08.30</td><td>Registrasi Peserta</td><td>OSIS</td></tr>
+          <tr><td>08.30 - 09.00</td><td>Upacara Pembukaan</td><td>Wakasek Kesiswaan</td></tr>
+          <tr><td>09.00 - 11.00</td><td>Penampilan Seni Musik dan Tari</td><td>Guru Seni Budaya</td></tr>
+          <tr><td>11.00 - 12.00</td><td>Pembacaan Puisi dan Teater</td><td>Ekstrakurikuler Teater</td></tr>
+          <tr><td>12.00 - 13.00</td><td>Istirahat & Makan Siang</td><td>Panitia</td></tr>
+          <tr><td>13.00 - 15.00</td><td>Pameran Kerajinan Tangan</td><td>Ekstrakurikuler Kriya</td></tr>
+          <tr><td>15.00 - 16.00</td><td>Penutupan & Pengumuman Pemenang</td><td>Kepala Sekolah</td></tr>
+        </table>
+      </section>
+    </div>
+
+    <div class="right">
+      <img src="./poster festifal.png" alt="Poster Festival Kreasi dan Seni">
+    </div>
+  </div>
+
+  <div class="form-container tengah" style="margin-left: 20px;"> 
+    <section id="pendaftaran">
+      <h2 style="color: #070000;">Formulir Pendaftaran</h2>
+      <form action="#" method="post">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" required style="font-size: 25px">
+
+        <label for="kelas">Kelas</label>
+        <select id="kelas" name="kelas" required style="font-size: 25px;">
+          <option value="">Pilih Kelas</option>
+          <option value="10">Kelas 10</option>
+          <option value="11">Kelas 11</option>
+          <option value="12">Kelas 12</option>
+        </select>
+
+        <label for="jenis">Jenis Kegiatan</label>
+        <select id="jenis" name="jenis" required style="font-size: 25px;">
+          <option value="">Pilih Jenis</option>
+          <option value="musik">Musik</option>
+          <option value="tari">Tari</option>
+          <option value="puisi">Pembacaan Puisi</option>
+          <option value="teater">Teater</option>
+          <option value="kerajinan">Kerajinan Tangan</option>
+        </select>
+
+        <label for="kontak">No. HP/WA</label>
+        <input type="text" id="kontak" name="kontak" required style="font-size: 25px;">
+
+        <label for="catatan">Catatan Tambahan</label>
+        <textarea id="catatan" name="catatan" rows="3" style="font-size: 25px;"></textarea>
+
+        <button type="submit">Daftar Sekarang</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Riswanto Onsent. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
